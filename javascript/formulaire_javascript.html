@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script  src="validation.js"></script>
+</head>
+<body>
+	<div id="erreur" style="text-align: center;color: red">
+		
+	</div>
+	<form action="">
+		<table align="center">
+			<tr>
+				<td>Nom & Prénom</td>
+				<td><input type="text" name="nom" id="nom"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="text" name="email" id="email"></td>
+			</tr>
+			<tr>
+				<td>cin</td>
+				<td><input type="text" name="cin" id="cin" onblur="validerCin()" onkeyup="validerCin()"></td>
+			</tr>
+			<tr>
+				<td>Mot de passe </td>
+				<td><input type="password" name="passe" id="passe"></td>
+			</tr>
+			<tr>
+				<td>Confirmation </td>
+				<td><input type="password" name="conf" id="conf"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="button" value="S'inscrire" onclick="validerCin()"></td>
+			</tr>
+
+		</table>
+
+	</form>
+
+
+
+<script >
+	
+</script>
+</body>
+</html>
